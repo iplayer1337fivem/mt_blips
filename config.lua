@@ -2,7 +2,7 @@ Config = Config or {}
 
 Config.blips = {
     fuelStations = {
-        label = 'Bombas de combustivel',
+        label = 'Benzinstationer',
         sprite = 361,
         color = 1,
         scale = 0.6,
@@ -39,7 +39,7 @@ Config.blips = {
         }
     },
     clothingShops = {
-        label = 'Loja de roupa',
+        label = 'Tøjbutikker',
         sprite = 366,
         color = 47,
         scale = 0.6,
@@ -64,7 +64,7 @@ Config.blips = {
         }
     },
     barberShops = {
-        label = 'Barbeiro',
+        label = 'Barber',
         sprite = 71,
         color = 0,
         scale = 0.6,
