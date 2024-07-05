@@ -81,7 +81,7 @@ Config.blips = {
         }
     },
     tattooShops = {
-        label = 'Tatuador',
+        label = 'Tatovører',
         sprite = 75,
         color = 1,
         scale = 0.6,
@@ -97,38 +97,43 @@ Config.blips = {
         }
     },
     garages = {
-        label = 'Garagem',
+        label = 'Garager',
         sprite = 357,
         color = 0,
         scale = 0.6,
         display = 4,
         defaultEnabled = false,
         locations = {
-            vec3(223.969360, -790.692200, 30.869452),
-            vec3(281.621674, -336.494781, 44.919876),
-            vec3(1036.157227, -771.041321, 58.004242),
-            vec3(889.582886, -39.543922, 78.764114),
+            vec3(223.969360, -790.692200, 30.869452), --Legion Square
+            vec3(281.621674, -336.494781, 44.919876), --Islington South
+            vec3(1036.157227, -771.041321, 58.004242), --Mirror Park
+            vec3(889.582886, -39.543922, 78.764114), 
             vec3(691.428101, 243.841858, 93.461678),
             vec3(615.134583, 109.116829, 92.872810),
-            vec3(372.536835, 284.296448, 103.203506),
+            vec3(372.536835, 284.296448, 103.203506), -- North Vinewood Bld
             vec3(-338.921478, 282.899414, 85.530602),
             vec3(-2038.642334, -459.027466, 11.415299),
             vec3(1471.473022, 3735.903076, 33.662392),
             vec3(1955.395142, 3764.802490, 32.202957),
             vec3(945.163086, 3613.345459, 32.655365),
-            vec3(1691.058105, 4770.383301, 41.921467),
-            vec3(148.851059, 6604.335938, 31.865322),
-            vec3(58.688511, 6388.202637, 31.231415),
+            vec3(1691.058105, 4770.383301, 41.921467), -- Grapeseed
+            vec3(148.851059, 6604.335938, 31.865322), -- Paleto
+            vec3(58.688511, 6388.202637, 31.231415), -- Paleto
             vec3(-1664.269531, -893.581848, 8.592880),
-            vec3(-1187.038330, -1489.287598, 4.379669),
+            vec3(-1187.038330, -1489.287598, 4.379669), -- Beach
             vec3(-52.504021, -1116.514038, 26.433533),
             vec3(-383.536926, -135.976120, 38.685135),
             vec3(-611.152649, 193.689606, 70.679947),
+            vec3(14.66, -1728.52, 29.3), -- Groove street - tilføjet
+            vec3(-2961.58, 375.93, 15.02), -- Great Ocen Highway - tilføjet
+            vec3(217.33, 2605.65, 46.04), -- Sandy South - tilføjet
+            vec3(1878.44, 3760.1, 32.94), -- Sandy Nord - tilføjet
+            vec3(2552.56, 2609.96, 37.96), -- Rex Diner - tilføjet
             vec3(1126.615845, 2662.493408, 37.999714)
         }
     },
     shops = {
-        label = 'Loja 24/7',
+        label = 'Kiosker',
         sprite = 52,
         color = 0,
         scale = 0.6,
@@ -155,7 +160,7 @@ Config.blips = {
         }
     },
     ammunations = {
-        label = 'Ammunation',
+        label = 'Værk og Tøj',
         sprite = 110,
         color = 0,
         scale = 0.6,
@@ -173,4 +178,19 @@ Config.blips = {
 			vec3(842.44, -1033.42, 28.19)
         }
     },
+    offentligesteder = {
+        label = 'Politi',
+        sprite = 137,
+        color = 29,
+        scale = 0.7,
+        display = 4,
+        defaultEnabled = false,
+        locations = {
+			vec3(428.23, -984.28, 29.76), --Los Santos Police Department
+			vec3(1845.903, 2585.873, 45.672), --San Andreas State Prison
+			vec3(1756.01, 3614.5, 34.93), -- Blaine County Sheriffs Office // Sandy
+			vec3(-450.27, 6002.5, 31.49) -- Paleto
+
+        }
+    }
 }
